@@ -620,4 +620,7 @@ footer .box:hover{
     .contato h1{
         font-size: 3rem;
     }
+    .contato .singlecolumn .title{
+        font-size: 2rem;
+    } 
 }
