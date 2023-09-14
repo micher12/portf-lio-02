@@ -43,7 +43,7 @@ $(function(){
         btn.click(function(){
             $('body,html').stop().animate({
                 scrollTop: 0,
-            },0)
+            },1000)
         })
         
     }
@@ -58,6 +58,26 @@ $(function(){
         }
 
     })
+
+    navegation($('nav a, .navfooter a'),0)
+    function navegation(el,res){
+        el.click(function(e){
+            
+            var anchor = $(this);
+            var altura = $(anchor.attr('href')).offset().top;
+
+            if(res){
+                altura = altura - res;
+            }else{
+                altura = altura
+            }
+
+            $('html,body').stop().animate({
+                scrollTop: altura,
+            },1000)
+            e.preventDefault()
+        }); 
+    }
 
     
     //mobile

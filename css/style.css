@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter";
-    scroll-behavior: smooth;
 }
 body::-webkit-scrollbar{
     background-color: #252525;
@@ -77,6 +76,7 @@ p{line-height: 150%;color: #252525;}
 }
 .btn{
     border-radius: 12px;
+    width: fit-content;
     padding: 4px 12px;
     background-color: #275de7;
     color: #fff;
@@ -368,6 +368,8 @@ main{
 }
 .sobre .otherprojetos ~ .text-center > a{
     padding: 4px 40px;
+    display: inline-flex;
+
 }
 /*contato*/
 .contato::before{
@@ -381,6 +383,7 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    pointer-events:none;
 }
 .contato{
     position: relative;
