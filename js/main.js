@@ -59,7 +59,7 @@ $(function(){
 
     })
 
-    navegation($('nav a, .navfooter a'),0)
+    navegation($('a'),0)
     function navegation(el,res){
         el.click(function(e){
             

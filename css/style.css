@@ -496,7 +496,7 @@ footer .box{
     font-size: 26px;
     color: #c4c4cc;
     cursor: pointer;
-    transition: all .4s ease 0s;
+    transition: all .4s ease;
 }
 footer .box:hover{
     color: #fff;
