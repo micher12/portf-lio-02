@@ -283,6 +283,7 @@ main{
     position: absolute;
     width: 99.5%;
     height: 100%;
+    border-radius: 70px;
     border-top-right-radius: 150px;
     border-bottom-right-radius: 150px;
     background-color: #275de7;
@@ -597,6 +598,15 @@ footer .box:hover{
     }
 }
 @media screen and (max-width: 500px) {
+    .sobre{
+        border-top-right-radius: 35px;
+        border-top-left-radius: 35px;
+    }
+    .contato{
+        padding-bottom: 40px;
+        border-bottom-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+    }
     .sobre .singlenivel{
         justify-content: center;
         width: 100%;
