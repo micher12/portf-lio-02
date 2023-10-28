@@ -281,11 +281,9 @@ main{
 .nivel::before{
     content: '';
     position: absolute;
-    width: 99.5%;
+    width: 100%;
     height: 100%;
-    border-radius: 70px;
-    border-top-right-radius: 150px;
-    border-bottom-right-radius: 150px;
+    border-radius: 6px;
     background-color: #275de7;
     top: 0;
     left: 0;
@@ -297,10 +295,10 @@ main{
     cursor: pointer;
 }
 .__95::before{
-    width: 95%;
+    width: 98%;
 }
 .__45::before{
-    width: 45%;
+    width: 60%;
 }
 .singlenivel{
     gap: 22px;
